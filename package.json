@@ -1,0 +1,38 @@
+{
+  "name": "freepik-download-script",
+  "version": "1.0.0",
+  "description": "A Node.js script for downloading images from Freepik with support for batching, concurrency, and optional zipping.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumandipanshu/freepik-download-script.git"
+  },
+  "keywords": [
+    "freepik",
+    "download",
+    "images",
+    "typescript",
+    "nodejs",
+    "batch",
+    "zip"
+  ],
+  "author": "Dipanshu Kumar Suman",
+  "license": "MIT",
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "node-fetch": "^3.3.2",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/node-fetch": "^2.6.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "type": "module"
+}
